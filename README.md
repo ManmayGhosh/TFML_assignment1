@@ -1,7 +1,32 @@
-%pip install numpy torch torchvision matplotlib in jupyter
+## 📓 Jupyter Notebook (Model Building)
+### Install dependencies
+
+```bash
+%pip install numpy torch torchvision matplotlib
+```
+in jupyter
+### Kernel setup
 Worked with venv therefore in jupyter kernel interpreter is set to venv
 Q 1(a), Q 1(b), Q 1(c) works in jupyter notebook
 Q 1(d) some staement in jupyter notebook(to upload model model.pth), some in python(to build the web application)
+
+
+##python file
+
+###Bash Script
+```bash
+venv/Scripts/activate
+```
 Worked with venv so bash Script: venv/Scripts/activate for python interpreter Venv is used
-%pip install streamlit torch torchvision numpy matplotlib pillow in python
-To run web application : streamlit run app.py
+
+```bash
+%pip install streamlit torch torchvision numpy matplotlib pillow
+```
+in python
+
+##Run Web Application
+For Q1(d)
+```bash
+streamlit run app.py
+```
+in terminal
